@@ -94,7 +94,7 @@ EmojiMosaic.prototype.imageLoaded = function() {
 	this.extractionCanvasContext.drawImage(this.img, 0, 0, this.extractionCanvas.width, this.extractionCanvas.height );
 
 	var saveButton = document.createElement( 'a' );
-	saveButton.innerHTML = 'Save as image';
+	saveButton.innerHTML = '下载图片';
 	document.body.appendChild( saveButton );
 	var self = this;
 
@@ -205,6 +205,3 @@ document.addEventListener('DOMContentLoaded', function(event) {
 	});
 });
 </script>
-	<hr />
-
-<pre><strong>Fork自</strong><em><a href="https://github.com/ericandrewlewis/emoji-mosaic">https://github.com/ericandrewlewis/emoji-mosaic</a></em></pre>
